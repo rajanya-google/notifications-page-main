@@ -9,6 +9,8 @@ body {
 }
 
 #container {
+    height: 100%;
+    width: 100%;
     padding: 0% 3%;
 }
 
@@ -18,16 +20,16 @@ body {
     gap: 10px;
 }
 
-.notify-text {
+#notify-text {
     font-size: 1.2rem;
     font-weight: 800;
 }
 
-.notify-text p {
+#notify-text p {
     color: #1c202b;
 }
 
-.notify-count {
+#notify-count {
     height: 22px;
     width: 28px;
     padding-top: 2px;
@@ -35,13 +37,13 @@ body {
     border-radius: 5px;
 }
 
-.notify-count p {
+#notify-count p {
     font-size: 0.8rem;
     color: #ffffff;
     text-align: center;
 }
 
-.notify-action {
+#notify-action {
     margin-left: auto;
 }
 
@@ -104,6 +106,20 @@ p {
 }
 
 @media (min-width: 576px) {
+    main {
+        width: 100%;
+        padding: 3% 0% 4% 0%;
+        background-color: #f7fafd;
+    }
+
+    #container {
+        background-color: white;
+        width: 55%;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.1);
+    }
+
     .item {
         padding: 2%;
         margin-bottom: 10px;
