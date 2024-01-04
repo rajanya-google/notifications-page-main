@@ -21,7 +21,7 @@ body {
 }
 
 #notify-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 800;
 }
 
@@ -107,8 +107,9 @@ p {
 
 @media (min-width: 576px) {
     main {
-        width: 100%;
-        padding: 3% 0% 4% 0%;
+        width: 100vw;
+        height: 100vh;
+        padding: 4% 0% 5% 0%;
         background-color: #f7fafd;
     }
 
